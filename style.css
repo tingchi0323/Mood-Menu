@@ -1,0 +1,77 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: #fff4f9;
+  color: #333;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.emoji-menu button {
+  font-size: 32px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ffc2da;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.emoji-menu button:hover {
+  background-color: #ffe6ee;
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+.emoji-menu button:active {
+  transform: scale(1.4);
+  transition: all 0.1s ease;
+}
+
+.emoji-menu button:hover {
+  background-color: #ffe6ee;
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #d16a8a;
+  min-height: 40px;
+}
+.emoji-menu button:active {
+  transform: scale(2.0);
+  transition: transform 0.1s ease;
+}
+.cute-button {
+  font-size: 18px;
+  background-color: #ffcce0;
+  color: #5c1a35;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 170, 200, 0.5);
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.cute-button:hover {
+  background-color: #ffd6e8;
+  transform: scale(1.05);
+}
+
+.cute-button:active {
+  transform: scale(1.1);
+  background-color: #ffb3d1;
+}
+.emoji-spin {
+  display: inline-block;
+  transition: transform 0.4s;
+}
+
+.cute-button:active .emoji-spin {
+  transform: rotate(360deg);
+}

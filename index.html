@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>心情選單 Mood Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<body>
+  <h1>今天你過得好嗎？</h1>
+  <div class="emoji-menu">
+    <button onclick="showMessage('happy')">😊</button>
+    <button onclick="showMessage('sad')">😢</button>
+    <button onclick="showMessage('stressed')">😵</button>
+    <button onclick="showMessage('meh')">😐</button>
+  </div>
+  <div id="message" class="message"></div>
+  <br><br>
+  <button class="cute-button" onclick="randomQuote()">
+    <span class="emoji-spin">🌈</span> 來一句鼓勵的話！
+  </button>
+<div id="randomQuote" class="message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
