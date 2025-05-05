@@ -21,9 +21,8 @@
 
 ## GitHub Pages 預覽網址
 
-> 部署成功後會出現在這裡！
-> 
-> `https://tingchi0323.github.io/Mood-Menu/`
+> (https://tingchi0323.github.io/Mood-Menu/)
+
 
 ---
 
